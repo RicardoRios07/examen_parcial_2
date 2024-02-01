@@ -1,16 +1,26 @@
-# examen_parcial_2
+# Aplicación de Lista de Tareas en Flutter
 
-A new Flutter project.
+Esta es una aplicación de lista de tareas desarrollada con Flutter y Dart. Permite a los usuarios gestionar sus tareas diarias de manera eficiente, agregando, editando y eliminando tareas según sea necesario.
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- **Agregar Tareas**: Los usuarios pueden agregar nuevas tareas con un título y una descripción.
+- **Editar Tareas**: Las tareas existentes pueden ser editadas para cambiar su título, descripción o marcarlas como completadas.
+- **Eliminar Tareas**: Las tareas pueden ser eliminadas de la lista.
+- **Estado de Tareas**: Las tareas pueden ser marcadas como completadas o pendientes.
+- **Interfaz Intuitiva**: La aplicación cuenta con una interfaz de usuario amigable y fácil de usar.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Provider para el manejo del estado
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Estructura del Proyecto
+
+- `/lib`
+  - `/models` - Define el modelo de datos de la tarea.
+  - `/providers` - Contiene el `TasksProvider` para manejar el estado de la aplicación.
+  - `/screens` - Pantallas de la aplicación, incluyendo la lista de tareas y la pantalla de edición.
+  - `/widgets` - Widgets reutilizables, como los que representan cada tarea en la lista.
+  - `main.dart` - Punto de entrada de la aplicación Flutter.
